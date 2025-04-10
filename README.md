@@ -36,16 +36,24 @@ There is a filter by class and another by race that is included with the addon.
 ## Miscellaneous
 This is a new addon and while I have been working hard to debug it, I am sure there will be issues.
 
-## Updates/Additions by JSON
-* Added a show/hide quick filters button in the bottom right corner of the scanner interface - which then brings up a quick interface menu to adjust filters on the fly
-* Made it so the quick filter and filter settings menu are in sync with each other.
-* Made it so when you change one of the filter settings for any race/class it rebuilds the search query
-* Made it so you can choose a race/class combination in the searches for players
-* Made it so demon hunters do not show up in the hunter class searches
-* Adjusted the location of the scan button and query text.
-* Scanner searches for 20 level brackets at a time and adjusted dynamically based on what your level range search is.
-* Scanner splits the search querys if player search returns the max of 50 players.
-* Scanner will loop back at the start of your level bracket once completed if you have a level range chosen.
+## Changes and Improvements by JSON
+
+**New Features:**
+- Added a **Custom Race/Class Filter** allowing users to choose exactly which races and/or classes to search for via the filters dropdown menu.
+- Added a **Show/Hide Quick Filters** button to the bottom-right corner of the scanner interface, opening a streamlined quick menu to adjust filters on the fly.
+
+**Improvements:**
+- Quick Filters and the main Filter Settings menu are now synchronized — changes made in one will reflect in the other.
+- Changing any filter setting for a race or class will now **automatically rebuild the search query**.
+- Users can now search for **specific race and class combinations**.
+- **Demon Hunters** are now properly excluded from **Hunter** class searches.
+- Repositioned the **Scan** button and query input field for a cleaner layout.
+
+**Scanner Logic Updates:**
+- The scanner now searches in **20-level brackets**, dynamically adjusting based on the selected level range.
+- If a player search returns the maximum of 50 results, the scanner will **split the search queries** and continue searching.
+- When a level range is selected, the scanner will **loop back** to the start of the bracket once the search is completed to ensure full coverage.
+
 
 ## Known issues by JSON 
 * Search progress percentage may not be accurate or goes above 100%, this is due to how the query splitting works, and i cant be bothered to fix it more then i already tried.

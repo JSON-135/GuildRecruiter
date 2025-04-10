@@ -39,7 +39,7 @@ This is a new addon and while I have been working hard to debug it, I am sure th
 ## Changes and Improvements by JSON
 
 **New Features:**
-- Added a **Custom Race/Class Filter** allowing users to choose exactly which races and/or classes to search for via the filters dropdown menu.
+- Added a **Custom Race/Class Filter**, allowing you to choose exactly which races and/or classes to search for. When the custom race/class filter is selected from the dropdown on the home screen, the scanner will search based on the classes and races you have selected in the addon settings or the quick filters menu on the scanner screen.
 - Added a **Show/Hide Quick Filters** button to the bottom-right corner of the scanner interface, opening a streamlined quick menu to adjust filters on the fly.
 
 **Improvements:**
